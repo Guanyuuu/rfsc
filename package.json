@@ -1,0 +1,21 @@
+{
+    "name": "rfsc",
+    "version": "1.0.6",
+    "description": "用于本地代码一旦变化则推送代码到服务器，并启动项目",
+    "author": "guanyu",
+    "license": "ISC",
+    "main": "./lib/connect.js",
+    "bin": {
+        "rfsc": "./bin/rfsc.js"
+    },
+    "engines": {
+        "node": "16.0.0"
+    },
+    "scripts": {
+        "start": "node ./bin/rfsc.js"
+    },
+    "dependencies": {
+        "chokidar": "^3.5.3",
+        "ssh2": "^1.11.0"
+    }
+}
