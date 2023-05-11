@@ -1,6 +1,6 @@
 {
     "name": "rfsc",
-    "version": "1.0.6",
+    "version": "1.1.0",
     "description": "用于本地代码一旦变化则推送代码到服务器，并启动项目",
     "author": "guanyu",
     "license": "ISC",
